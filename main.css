@@ -134,6 +134,7 @@ margin-left:2vw;
 .secondImg{
     grid-column:1/2;
     grid-row:4/5;
+
 }
 .right{
     margin-right:6vw;
@@ -217,9 +218,23 @@ align-items: center;
     filter: brightness(100%);  
   }
   @media (max-width:800px) {
-      .greyBox{
-          display:flex;
-          flex-direction: column;
+      .midHeader{
+          font-size:2.5vw;
+      }
+      .basicButton{
+          font-size:1.5vw;
+      }
+      .midTxt{
+          font-size:1.5vw;
+      }
+      #buildingClipart{
+          margin-top:6vw;
+      }
+      #topLogo{
+          font-size:2vw;
+      }
+      .introTxt{
+          font-size:2.5vw;
       }
   }
   .footer{
