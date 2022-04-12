@@ -264,4 +264,7 @@ align-items: center;
     .introTxt{
         font-size:2.5vw;
     }
+    .greyBox{
+        margin-top: 2vw;
+    }
 }
