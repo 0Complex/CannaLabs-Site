@@ -273,10 +273,10 @@ align-items: center;
  
     .background{
         width:400vw;
-    height:220vw;
-background-size:300vw 220vw;
+    height:293vw;
+background-size:400vw 293vw;
 margin-left: -30vw;
-margin-top:-75vw;
+margin-top:-100vw;
     }
     .basicButton{
         font-size:4vw;
@@ -317,7 +317,7 @@ margin-top:-75vw;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 50vw 85vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
+        grid-template-rows: 50vw 135vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
               
             }
             .first{
