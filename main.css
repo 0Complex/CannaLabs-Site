@@ -271,8 +271,9 @@ align-items: center;
         margin-right: 0;
     }
     .basicButton{
-        font-size:3vw;
-        
+        font-size:3.5vw;
+        padding:1vw;
+        border-radius: 1vw;
     }
     .middleButtons{
         margin-left:0vw;
@@ -308,7 +309,7 @@ align-items: center;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 12.5vw 35vw 35vw 35vw 35vw 35vw 35vw 50vw 15vw;
+        grid-template-rows: 12.5vw 35vw 35vw 35vw 35vw 35vw 35vw 50vw 25vw;
               
             }
             .first{
@@ -389,6 +390,16 @@ align-items: center;
             }
             .greyDescription{
                 font-size:2vw;
+            }
+            .bottomLink{
+                margin-top: 0vw;
+                max-width: 15vw;
+            }
+            .links{
+                gap:3vw;
+            }
+            .footer{
+                margin-top:5vw;
             }
           }
     
