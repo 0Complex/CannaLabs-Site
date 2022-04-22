@@ -270,6 +270,14 @@ align-items: center;
        
         margin-right: 0;
     }
+ 
+    .background{
+        width:400vw;
+    height:220vw;
+background-size:300vw 220vw;
+margin-left: -30vw;
+margin-top:-95vw;
+    }
     .basicButton{
         font-size:3.5vw;
         padding:1vw;
@@ -309,7 +317,7 @@ align-items: center;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 12.5vw 25vw 45vw 45vw 45vw 45vw 45vw 50vw 25vw;
+        grid-template-rows: 50vw 65vw 50vw 52vw 50vw 50vw 50vw 60vw 25vw;
               
             }
             .first{
@@ -327,7 +335,9 @@ align-items: center;
             .firstImg{
                 grid-column: 1/3;
                 grid-row:4/5;
-                margin:auto;
+                left:9.5vw;
+                margin-left:9vw;
+                margin-top: 5vw;
                 float:left;
                
             }
@@ -344,9 +354,10 @@ align-items: center;
             .secondImg{
                 grid-column:1/3;
                 grid-row:6/7;
+                left:9.5vw;
+                margin-left:9vw;
+                margin-top: 10vw;
                 float:left;
-                justify-self: left;
-              margin:auto;
 
             }
             .third{
@@ -360,7 +371,7 @@ align-items: center;
             #buildingClipart{
                 float:left;
                 margin-left: 0;
-                max-width:55vw;
+                max-width:75vw;
 margin-top:5vw;
             }
             .right{
@@ -369,7 +380,8 @@ margin-top:5vw;
             .greyBox{
                 grid-row:8/9;
                 margin-left:0;
-                margin-top:10vw;
+                margin-top:5vw;
+                height:50vw;
             }
             .footer{
                 grid-row:9/10
@@ -377,21 +389,22 @@ margin-top:5vw;
             #intro{
                 grid-column: 1/3;
                 max-width: 70%;
-                text-align: center;
+                text-align: left;
                margin:auto;
                left:0;
                margin-top: 4vw;
                align-content: center; 
             }
             .introTxt{
-                margin-left:0;
-                font-size:4vw;
+                margin-left:0vw;
+                font-size:4.5vw;
             }
             .greyHeader{
-                font-size:4vw;
+                font-size:5vw;
             }
             .greyDescription{
-                font-size:2vw;
+                font-size:3vw;
+                text-align: center;
             }
             .bottomLink{
                 margin-top: 0vw;
