@@ -272,7 +272,7 @@ align-items: center;
     }
  
     .background{
-        width:440vw;
+        width:460vw;
     height:293vw;
 background-size:400vw 293vw;
 margin-left: -30vw;
@@ -317,7 +317,7 @@ margin-top:-100vw;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 70vw 135vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
+        grid-template-rows: 70vw 115vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
               
             }
             .first{
@@ -337,7 +337,7 @@ margin-top:-100vw;
                 grid-row:4/5;
                 left:9.5vw;
                 margin-left:5vw;
-                margin-top: 10vw;
+                margin-top:-5vw;
                 float:left;
                
             }
@@ -356,7 +356,7 @@ margin-top:-100vw;
                 grid-row:6/7;
                 left:9.5vw;
                 margin-left:5vw;
-                margin-top: 15vw;
+                margin-top:-7vw;
                 float:left;
 
             }
