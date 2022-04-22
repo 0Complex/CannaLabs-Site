@@ -1,8 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 body{
-    margin:0;
-    overflow:auto;
+    margin:auto;
+    overflow:-moz-hidden-unscrollable;
 }
 .background{
     width:200vw;
@@ -129,6 +129,7 @@ margin-left:2vw;
     float: right;
     max-width: 20vw;
     margin-right: 6vw;
+    justify-content: center;
     border-radius: 3vw;
 }
 .secondImg{
@@ -238,6 +239,7 @@ align-items: center;
   }
   #buildingClipart{
       max-width:30vw;
+      max-height:20vw;
       margin-left:6vw;
       float:left;
     margin-left:6vw;
@@ -245,26 +247,126 @@ align-items: center;
   .bottomLink{
       max-width: 5vw;
   }
+ 
   @media (max-width:800px) {
     .midHeader{
-        font-size:2.5vw;
+        font-size:3.5vw;
+        margin-left:0;
+       
+        margin-right: 0;
     }
     .basicButton{
-        font-size:1.5vw;
+        font-size:2vw;
+        
+    }
+    .middleButtons{
+        margin-left:0vw;
+        margin-right: 0;
+    
     }
     .midTxt{
-        font-size:1.5vw;
-    }
-    .secondImg{
-        visibility:hidden;
-    }
-    #topLogo{
         font-size:2vw;
+        margin-left:0vw;
+        margin-right: 0;
+        
+    }
+    #weedPic{
+        margin-right:0;
+        
+        float:none;
+        margin-top: 5vw;
+        max-width:25vw;
+    }
+    
+    #topLogo{
+        font-size:4vw;
     }
     .introTxt{
-        font-size:2.5vw;
+        
+        margin-top: 5vw;
+        font-size:3vw;
     }
     .greyBox{
-        margin-top: 5vw;
+        margin-top: 2vw;
     }
-}
+    #mainGrid{
+        
+        display:grid;
+        grid-template-columns: 50%;
+        grid-template-rows: 12.5vw 30vw 30vw 30vw 30vw 30vw 30vw 40vw 15vw;
+              
+            }
+            .first{
+                grid-column: 1/3;
+                grid-row:3/4;
+                max-width: 70%;
+                text-align: center;
+               margin:auto;
+               align-self: center;
+               align-content: center;
+        
+            }
+           
+           
+            .firstImg{
+                grid-column: 1/3;
+                grid-row:4/5;
+                margin:auto;
+                float:center;
+               
+            }
+            
+            .second{
+                grid-column: 1/3;
+                grid-row:5/6;
+                max-width: 70%;
+                text-align: center;
+               margin:auto;
+               align-content: center;
+        
+            }
+            .secondImg{
+                grid-column:1/3;
+                grid-row:6/7;
+                float:center;
+              margin:auto;
+
+            }
+            .third{
+                grid-column: 1/3;
+                grid-row:7/8;
+                max-width: 70%;
+                text-align: center;
+               margin:auto;
+               align-content: center;   
+            }
+            #buildingClipart{
+                float:none;
+                margin-left: 0;
+                max-width:40vw
+            }
+            .right{
+                margin-right:0;
+            }
+            .greyBox{
+                grid-row:8/9;
+                margin-left:0
+            }
+            .footer{
+                grid-row:9/10
+            }
+            #intro{
+                grid-column: 1/3;
+                max-width: 70%;
+                text-align: center;
+               margin:auto;
+               left:0;
+               margin-top: -0.5vw;
+               align-content: center; 
+            }
+            .introTxt{
+                margin-left:0
+            }
+          }
+    
+   
