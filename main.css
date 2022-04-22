@@ -317,7 +317,7 @@ margin-top:-100vw;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 70vw 115vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
+        grid-template-rows: 70vw 115vw 70vw 70vw 70vw 70vw 70vw 70vw 30vw;
               
             }
             .first{
