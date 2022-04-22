@@ -263,7 +263,7 @@ align-items: center;
   
   /* The element to apply the animation to */
   
-  @media (max-width:800px) {
+  @media (max-width:600px) {
     .midHeader{
         font-size:4.5vw;
         margin-left:0;
@@ -272,7 +272,7 @@ align-items: center;
     }
  
     .background{
-        width:400vw;
+        width:440vw;
     height:293vw;
 background-size:400vw 293vw;
 margin-left: -30vw;
@@ -317,7 +317,7 @@ margin-top:-100vw;
         
         display:grid;
         grid-template-columns: 50%;
-        grid-template-rows: 50vw 135vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
+        grid-template-rows: 70vw 135vw 60vw 60vw 60vw 60vw 60vw 70vw 30vw;
               
             }
             .first{
